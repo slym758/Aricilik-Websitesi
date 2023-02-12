@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Paytone+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/product.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="jquery-3.6.3.slim.min.js"></script>
+    <title>Document</title>
+    <script src="js/product.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-fluid nav_menu">
+        <div class="logo">
+          <a href="">
+            <img src="img/logo.webp" alt="" />
+          </a>
+        </div>
+
+        <div class="menu">
+          <div class="menu_alt">
+            <ul class="menu_ul">
+              <li class="menu_li">
+                <a href="#" class="nav_link">
+                  <span>Anasayfa</span>
+                </a>
+              </li>
+              <li class="menu_li">
+                <a href="#" class="nav_link">
+                  <span>Ürünlerimiz</span>
+                </a>
+              </li>
+              <li class="menu_li">
+                <a href="#" class="nav_link">
+                  <span>Hakkımızda</span>
+                </a>
+              </li>
+              <li class="menu_li">
+                <a href="#" class="nav_link">
+                  <span>İletişim</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="responsiv_icon">
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+
+          <div class="exit">
+            <span class="a"></span>
+            <span class="b"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="responsive_menu hidden">
+        <div class="cizgi"></div>
+        <ul class="responsive_ul">
+          <li class="responsive_li"><a href="#"> Anasayfa </a></li>
+          <li class="responsive_li"><a href="#"> Anasayfa </a></li>
+          <li class="responsive_li"><a href="#"> Anasayfa </a></li>
+          <li class="responsive_li"><a href="#"> Anasayfa </a></li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="section_1 container">
+      <div class="col-lg-4"></div>
+      <div class="wrappers container col-lg-8">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <div class="carousel">
+          <img src="img/banner06.png" alt="" />
+          <img src="img/banner06.png" alt="" />
+          <img src="img/banner06.png" alt="" />
+          <img src="img/banner06.png" alt="" />
+          <img src="img/banner06.png" alt="" />
+          <img src="img/banner06.png" alt="" />
+          <img src="img/banner06.png" alt="" />
+        </div>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+      </div>
+    </section>
+
+    <section class="section_2 container">
+      <div class="product_section">
+        <aside class="aside col-lg-3">
+          <div class="aside_baslik">
+            <h2>Arıcılık Malzemeleri</h2>
+          </div>
+
+          <div class="aside_button">
+            <button class="filter_button" data-filter="eldiven">Eldiven</button>
+            <button class="filter_button" data-filter="körük">Körük</button>
+            <button class="filter_button" data-filter="maske">Maske</button>
+            <button class="filter_button" data-filter="varova">
+              Varova İlacı
+            </button>
+            <button class="filter_button" data-filter="alet">
+              El Aletleri
+            </button>
+            <button class="filter_button" data-filter="kovan">
+              Kovan Ekipmanları
+            </button>
+            <button class="filter_button" data-filter="vitamin">Vitamin</button>
+            <button class="filter_button" data-filter="diğer">Diğerleri</button>
+          </div>
+        </aside>
+
+        <main class="main col-lg-7">
+          <div class="product_kapsam">
+            <div class="product-card filter körük">
+              <img src="img/1.png" alt="Product Name" />
+              <h3>Product Name</h3>
+              <p>Product Description</p>
+              <div class="product-price">$19.99</div>
+              <button class="btn--open-modal btn-1">İncele</button>
+            </div>
+
+            <div class="product-card filter eldiven">
+              <img src="img/2.png" alt="Product Name" />
+              <h3>Product Name</h3>
+              <p>Product Description</p>
+              <div class="product-price">$19.99</div>
+              <button class="btn--open-modal btn-2">İncele</button>
+            </div>
+
+            <div class="product-card filter körük">
+              <img src="img/2.png" alt="Product Name" />
+              <h3>Product Name</h3>
+              <p>Product Description</p>
+              <div class="product-price">$19.99</div>
+              <button class="btn--open-modal btn-3">İncele</button>
+            </div>
+
+            <div class="product-card filter">
+              <img src="img/2.png" alt="Product Name" />
+              <h3>Product Name</h3>
+              <p>Product Description</p>
+              <div class="product-price">$19.99</div>
+              <button class="btn--open-modal btn-4">İncele</button>
+            </div>
+
+            <div class="product-card filter">
+              <img src="img/2.png" alt="Product Name" />
+              <h3>Product Name</h3>
+              <p>Product Description</p>
+              <div class="product-price">$19.99</div>
+              <button class="btn--open-modal btn-5">İncele</button>
+            </div>
+
+            <div class="product-card filter">
+              <img src="img/2.png" alt="Product Name" />
+              <h3>Product Name</h3>
+              <p>Product Description</p>
+              <div class="product-price">$19.99</div>
+              <button class="btn--open-modal btn-6">İncele</button>
+            </div>
+
+            <div class="product-card filter">
+              <img src="img/2.png" alt="Product Name" />
+              <h3>Product Name</h3>
+              <p>Product Description</p>
+              <div class="product-price">$19.99</div>
+              <button class="btn--open-modal btn-7">İncele</button>
+            </div>
+
+            <div class="product-card filter">
+              <img src="img/2.png" alt="Product Name" />
+              <h3>Product Name</h3>
+              <p>Product Description</p>
+              <div class="product-price">$19.99</div>
+              <button class="btn--open-modal btn-8">İncele</button>
+            </div>
+
+            <div class="product-card filter">
+              <img src="img/2.png" alt="Product Name" />
+              <h3>Product Name</h3>
+              <p>Product Description</p>
+              <div class="product-price">$19.99</div>
+              <button class="btn--open-modal btn-9">İncele</button>
+            </div>
+          </div>
+        </main>
+
+        <div class="ürün_detay hidden row">
+          <div class="ürün_kapsam">
+            <button class="btn--close-modal">&times;</button>
+            <div class="col-lg-6">
+              <img src="img/1.png" alt="" />
+            </div>
+            <div class="col-lg-6 ürün_detay_özellik">
+              <h3>Arıcı Eldiveni</h3>
+              <div class="row detay_özellik">
+                <div class="col-lg-6">
+                  <p>-Detay ürün özellikleri</p>
+                  <p>-Detay ürün özellikleri</p>
+                  <p>-Detay ürün özellikleri</p>
+                </div>
+                <div class="col-lg-6">
+                  <p>-Detay ürün özellikleri</p>
+                  <p>-Detay ürün özellikleri</p>
+                  <p>-Detay ürün özellikleri</p>
+                </div>
+              </div>
+              <button class="add_to_cart_ürün">İletişim</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="overlay hidden"></div>
+      </div>
+      <div class="listPage">
+        <li class="active">1</li>
+        <li>2</li>
+        <li>3</li>
+      </div>
+    </section>
+
+    <footer class="section footer-section">
+      <div class="footer_img">
+        <img src="img/footer-pattern2.webp" alt="" />
+      </div>
+      <div class="footer container">
+        <div class="footer_content col-lg-2">
+          <h3>Ardıç Ticaret</h3>
+          <ul class="footer_ul">
+            <li><a href="#">Anasayfa</a></li>
+            <li><a href="#">Ürünlerimiz</a></li>
+            <li><a href="#">Hakkımızda</a></li>
+            <li><a href="#">İletişim</a></li>
+          </ul>
+        </div>
+        <div class="footer_content col-lg-8">
+          <h3>Ardıç Arıcılık</h3>
+          <div class="footer_logo">
+            <a href="">
+              <img src="img/logo.webp" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="footer_content col-lg-2">
+          <h3>İletişim</h3>
+          <ul class="footer_ul">
+            <li><a href="#">Amasya/Merkez</a></li>
+            <li><a href="#">0555555555</a></li>
+            <li><a href="#">0555555555</a></li>
+            <li><a href="#">asfa@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer_end">
+        <h5>Tüm hakları saklıdır copyright © 2023</h5>
+      </div>
+    </footer>
+
+    <script src="js/Filter.js"></script>
+  </body>
+</html>

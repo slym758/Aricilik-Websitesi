@@ -1,0 +1,139 @@
+.nav_menu {
+  position: fixed;
+  z-index: 5;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+.nav_menu .logo {
+  margin-top: -15px;
+  border-radius: 15px;
+  background: linear-gradient(to bottom, #ff5a00 1%, #ff7225 100%);
+  margin-bottom: -30px;
+  width: 190px;
+  height: 140px;
+  transition: 0.6s;
+}
+
+.logo img {
+  margin-left: 15px;
+  padding-top: 30px;
+  height: auto;
+  width: auto;
+  display: block;
+  max-width: 85%;
+}
+
+.logo:hover {
+  padding-top: 25px;
+  height: 170px;
+  transition: 0.6s;
+}
+
+.menu .menu_ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.menu_ul .menu_li {
+  border-radius: 15px;
+  padding: 25px 15px;
+  margin-left: 15px;
+  transition: 0.6s;
+}
+
+.menu_li:hover {
+  border-radius: 15px;
+  background-color: #ff5a00;
+  transition: 0.6s;
+}
+
+.menu_li a {
+  font-weight: 600;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.hamburger {
+  margin-top: 55px;
+  display: none;
+  cursor: pointer;
+}
+
+.exit {
+  display: none;
+  margin-top: 55px;
+}
+
+.responsiv_icon {
+  display: flex;
+}
+.a {
+  transform: rotate(60deg);
+  display: block;
+  width: 35px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(255, 250, 250);
+}
+
+.b {
+  transform: rotate(-60deg);
+  display: block;
+  width: 35px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(255, 250, 250);
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(255, 250, 250);
+}
+
+.cizgi {
+  background-color: #ff5a00;
+  height: 5px;
+  width: 100%;
+}
+
+.responsive_menu {
+  background-color: white;
+  height: 200px;
+  width: 100%;
+  margin-top: 145px;
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: 1s;
+  position: absolute;
+}
+
+.hidden {
+  display: none;
+}
+
+.responsive_ul {
+  margin-top: 15px;
+}
+
+.responsive_ul li {
+  margin-left: -15px;
+  margin-bottom: 15px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.responsive_li a {
+  font-weight: 600;
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+}
